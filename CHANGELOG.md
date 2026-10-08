@@ -3,7 +3,7 @@
 All notable changes to this project will be recorded here.
 Dates follow `YYYY-MM-DD`.
 
-## 2027-10-08 - Version 1.0 release
+## 2026-10-08 - Version 1.0 release
 
 - Version 1.0 release with all functionality
 
