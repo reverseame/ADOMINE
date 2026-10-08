@@ -17,7 +17,6 @@ scores every generator against every detector with the same lexical,
 detection and timing metrics, so results across papers become directly
 comparable.
 
-- [How it works](#how-it-works)
 - [Getting started](#getting-started)
 - [Outputs](#outputs)
 - [Repository layout](#repository-layout)
@@ -26,30 +25,6 @@ comparable.
 - [Documentation](#documentation)
 - [Citing](#citing)
 - [License](#license)
-
-## How it works
-
-```
-Tranco (benign)  ──┐                          ┌─▶ D1 ─▶ 24 adversarial DGAs ─▶ samples ─┐
-                   ├─▶ tools/build_datasets.py ┼─▶ D2 ─▶ 9 detectors                    │
-DGArchive (AGDs) ──┘                          └─▶ D3 ─▶ control groups ─▶ samples ──────┤
-                                                                                        ▼
-                                           statistical ─ time ─ detection analysis ─▶ JSON
-```
-
-`main.py` runs the whole evaluation in four stages:
-
-1. **Generation.** Every adversarial model and control model is fitted (or
-   loads its cached weights) and asked for 100,000 domains, cached under the
-   workspace. A generation report records any model that could not fill its
-   quota.
-2. **Statistical and time analysis.** Seven lexical metrics per model, plus
-   training and generation times.
-3. **Detection analysis.** The nine detectors are fitted (or loaded) and every
-   model's samples are scored by every detector in full-domain mode.
-4. **SLD-only analysis.** The statistical and detection analyses are repeated
-   on the second-level label alone, so generator-only results can be compared
-   with the papers that strip the TLD.
 
 ## Getting started
 

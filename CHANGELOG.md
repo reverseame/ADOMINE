@@ -3,13 +3,17 @@
 All notable changes to this project will be recorded here.
 Dates follow `YYYY-MM-DD`.
 
+## 2027-10-08 - Version 1.0 release
+
+- Version 1.0 release with all functionality
+
 ## 2026-09-21 - RAMPAGE detectors
 
 - Seven more detectors under `detectors/`, the seven best models of the
   RAMPAGE evaluation, trained on D2 like the two original ones. Details in
   `docs/detectors.md` and `docs/assumptions.md`.
 
-## 2026-09-04 - Materialised D1/D2/D3 datasets
+## 2026-09-04 - D1/D2/D3 datasets
 
 - `tools/build_datasets.py` builds the three disjoint splits into
   `dataset/splits/` (100,000 benign and 100,000 malicious each; D3 additionally
