@@ -1,0 +1,1 @@
+from .deception import DeceptionModel

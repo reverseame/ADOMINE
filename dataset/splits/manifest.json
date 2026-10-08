@@ -1,0 +1,94 @@
+{
+    "seed": 42,
+    "created_utc": "2026-09-04T07:57:21Z",
+    "benign_source": "dataset/top-1m.csv",
+    "malicious_source": "dataset/dgarchive",
+    "families": 58,
+    "d3_families": [
+        "qakbot_dga.csv",
+        "rovnix_dga.csv",
+        "suppobox_dga.csv",
+        "dyre_dga.csv",
+        "conficker_dga.csv",
+        "cryptolocker_dga.csv",
+        "banjori_dga.csv",
+        "symmi_dga.csv",
+        "gozi_dga.csv",
+        "bamital_dga.csv"
+    ],
+    "files": {
+        "D1_benign.csv": {
+            "domains": 100000,
+            "sha256": "e2a6f418493cbbb5db7c48b3e9ebc878f952fad5490806c4153c61bf3365a079"
+        },
+        "D2_benign.csv": {
+            "domains": 100000,
+            "sha256": "b69aecfa927512fb9fd96794070c6851595893d9b7422ce52de70b18bef48cca"
+        },
+        "D3_benign.csv": {
+            "domains": 100000,
+            "sha256": "a1d3ef44ff9e697fc41fdf5c2747151e7cc52a7f619a6d4025bc7d6da90e49b5"
+        },
+        "D1_malicious.csv": {
+            "domains": 100000,
+            "sha256": "51a0953f3287281038be8611c8920531ec46f13517ad0de3f94f541769d7aee1"
+        },
+        "D2_malicious.csv": {
+            "domains": 100000,
+            "sha256": "9f629846089e5d4338f71656b45b15d32d8b73c905b2bd5c9da399266ee10a7c"
+        },
+        "D3_malicious_dyre_dga.csv": {
+            "domains": 100000,
+            "sha256": "b4eaf7ab07932e2cd21808be9e95441e863a9e2c15604edeeaf7ed5c3fdc4042"
+        },
+        "D3_malicious_qakbot_dga.csv": {
+            "domains": 100000,
+            "sha256": "da5c98bce01b76397c83d6bd27aa7e61729d7964b5824872e56f32cdf02af903"
+        },
+        "D3_malicious_rovnix_dga.csv": {
+            "domains": 100000,
+            "sha256": "490cf56b71f6cff18186b2eeb5c7f2d69692265234cf95c638fe5dbc6057714f"
+        },
+        "D3_malicious_suppobox_dga.csv": {
+            "domains": 100000,
+            "sha256": "dbc588c04d3f5b3e6fe0f0e4f5dda213d3afe195bc1778f9694f9b358d552837"
+        },
+        "D3_malicious_conficker_dga.csv": {
+            "domains": 100000,
+            "sha256": "edc364bb9531503fb00a73dbbbc4ac463fabd4ebfc8e53383af5595484d8063a"
+        },
+        "D3_malicious_cryptolocker_dga.csv": {
+            "domains": 100000,
+            "sha256": "dce7edd762b373058b6f1d9f3bed852cab02c475771e648aa1e46b036e9842c6"
+        },
+        "D3_malicious_banjori_dga.csv": {
+            "domains": 100000,
+            "sha256": "0f08e6c67dc15f03372b28e9fa49ab937491a5a18766b33afbbfe07d77578f45"
+        },
+        "D3_malicious_symmi_dga.csv": {
+            "domains": 100000,
+            "sha256": "ebe4f07f25c9db6f3bcd3d05f2791a6016d83f86ba05a9fd4ce5252e39f4c8a1"
+        },
+        "D3_malicious_gozi_dga.csv": {
+            "domains": 100000,
+            "sha256": "64cd865955f22fa61029f54f96d0a520cd3e44b62952935a34fe4ab3e2cd9c5e"
+        },
+        "D3_malicious_bamital_dga.csv": {
+            "domains": 100000,
+            "sha256": "c81b063974d4e6f2b2eda2c7ed7342e80b502a34dc1d35b219918920e074fc0d"
+        }
+    },
+    "d3_families_added": [
+        {
+            "added_utc": "2026-09-14T10:06:29Z",
+            "families": [
+                "conficker_dga.csv",
+                "cryptolocker_dga.csv",
+                "banjori_dga.csv",
+                "symmi_dga.csv",
+                "gozi_dga.csv",
+                "bamital_dga.csv"
+            ]
+        }
+    ]
+}
